@@ -5966,3 +5966,16 @@ Sat, 20 Jan 2018 21:28:45 web.py[line:2063] INFO 304 GET /static/myhtml/Linux%E5
 Sat, 20 Jan 2018 21:28:45 web.py[line:2063] WARNING 404 GET /static/myhtml/custom.css (127.0.0.1) 0.85ms
 Sat, 20 Jan 2018 23:58:17 web.py[line:2063] WARNING 404 GET / (127.0.0.1) 0.62ms
 Sun, 21 Jan 2018 16:50:07 web.py[line:2063] WARNING 404 GET / (127.0.0.1) 0.64ms
+Sun, 21 Jan 2018 17:05:40 web.py[line:2063] INFO 304 GET /homepage (127.0.0.1) 1.97ms
+Sun, 21 Jan 2018 17:05:40 web.py[line:2063] INFO 304 GET /static/mycss/home_page.css (127.0.0.1) 0.93ms
+Sun, 21 Jan 2018 17:05:40 web.py[line:2063] INFO 304 GET /static/scripts/vue/vue.js (127.0.0.1) 1.51ms
+Sun, 21 Jan 2018 17:05:41 web.py[line:2063] INFO 304 GET /static/scripts/jquery/jquery.min.js (127.0.0.1) 1.17ms
+Sun, 21 Jan 2018 17:05:41 web.py[line:2063] INFO 304 GET /static/scripts/bootstrap/bootstrap.min.js (127.0.0.1) 1.46ms
+Sun, 21 Jan 2018 17:05:41 web.py[line:2063] INFO 304 GET /static/myjs/home_page.js (127.0.0.1) 0.80ms
+Sun, 21 Jan 2018 17:05:41 web.py[line:2063] INFO 304 GET /static/myhtml/background.jpg (127.0.0.1) 2.01ms
+Sun, 21 Jan 2018 17:05:41 web.py[line:2063] INFO 200 POST /homepage/content/get (127.0.0.1) 2.00ms
+Sun, 21 Jan 2018 17:05:58 web.py[line:2063] INFO 200 POST /homepage/content/get (127.0.0.1) 2.33ms
+Sun, 21 Jan 2018 17:06:02 web.py[line:2063] INFO 200 GET /static/myhtml/git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.html (127.0.0.1) 4.30ms
+Sun, 21 Jan 2018 17:06:02 web.py[line:2063] WARNING 404 GET /static/myhtml/custom.css (127.0.0.1) 1.66ms
+Sun, 21 Jan 2018 17:06:03 web.py[line:2063] WARNING 404 GET /static/myhtml/custom.css (127.0.0.1) 1.31ms
+Sun, 21 Jan 2018 17:25:21 web.py[line:2063] WARNING 404 GET / (127.0.0.1) 0.61ms
