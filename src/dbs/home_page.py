@@ -62,6 +62,9 @@ class DBINIT(object):
             return res
         try:
             with self.conn_blog as cur:
+                sql_del_cmd = "delete from content_list where url = %s"
+                params = [req["url"]]
+                cur.execute(sql_del_cmd, params)
                 sql_insert_cmd = "insert ignore into content_list(title, author, tag, url) values (%s,%s,%s,%s)"
                 params = [req["title"], req["author"], req["tag"], req["url"]]
                 cur.execute(sql_insert_cmd, params)
